@@ -1,0 +1,13 @@
+flask
+pymysql
+flask-sqlalchemy
+sqlalchemy<1.2
+flask-script
+wheel
+flask-wtf
+flask-migrate
+# py-bcrypt
+passlib
+bcrypt
+python-slugify
+flask-markdown

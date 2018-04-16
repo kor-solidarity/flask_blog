@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UACompatible" content="IE=edge">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <title>{% block title %}{%endblock%}</title>
+        
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
+        
+    </head>
+    <body>
+        <div class="container">
+            {%block content %} {% endblock%}
+            
+        </div>
+        
+        <!--jquery-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        
+        <!--bootstrap js-->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
